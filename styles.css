@@ -1,0 +1,151 @@
+/* Navbar */
+.navbar {
+  border-right: 2px solid #ffc107; /* Yellow border */
+  background-color: #343a40; /* Dark background */
+  font-family: 'Arial', sans-serif; /* Change font family */
+}
+
+.navbar-brand {
+  font-size: 2rem; /* Larger font size */
+  color: #fff; /* White text */
+  font-weight: bold; /* Bold font weight */
+}
+
+.navbar-toggler {
+  border-color: #fff; /* White color for toggler icon */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* White color for toggler icon */
+}
+
+.navbar-nav {
+  width: 100%; /* Make navbar nav items occupy full width */
+}
+
+.nav-item {
+  width: 100%; /* Make navbar nav items occupy full width */
+  text-align: center; /* Center-align nav items */
+}
+
+.nav-link {
+  padding: 1rem 0; /* Add padding to nav links */
+  display: block; /* Display nav links as block elements */
+  color: #fff; /* White text */
+  font-size: 1.2rem; /* Font size for nav links */
+  text-transform: uppercase; /* Uppercase text */
+  font-weight: bold; /* Bold font weight */
+  letter-spacing: 1px; /* Add letter spacing */
+}
+/* Container for the rest of the content */
+.container {
+  padding: 1rem 0; /* Add padding to container */
+}
+
+/* Carousel */
+.carousel-item img {
+  max-width: 100%; /* Ensure image fits within container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.7); /* Slightly transparent black background */
+}
+
+.carousel-caption h5, .carousel-caption p {
+  color: #ffc107; /* Yellow text */
+}
+
+/* Heading Section */
+.heading-section {
+  text-align: center;
+  padding: 6rem 0; /* Increased padding */
+  background-color: #ffc107; /* Yellow background */
+  color: #343a40; /* Dark text */
+}
+
+.heading-section h1 {
+  font-size: 4rem; /* Larger font size */
+  margin-bottom: 2rem;
+}
+
+.heading-section p {
+  font-size: 1.5rem; /* Larger font size */
+  color: #343a40; /* Dark text */
+}
+
+/* Table Section */
+.table-section {
+  padding: 6rem 0; /* Increased padding */
+  background-color: #f8f9fa; /* Light background */
+}
+
+.table-section h2 {
+  text-align: center;
+  margin-bottom: 4rem; /* Increased margin */
+  color: #343a40; /* Dark text */
+}
+
+/* Table styling */
+.table-wrapper {
+  overflow-x: auto; /* Enable horizontal scrolling for small screens */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  border: 1px solid #dee2e6; /* Light gray border */
+}
+
+.table th {
+  background-color: #343a40; /* Dark background */
+  color: #fff; /* White text */
+  font-weight: bold;
+  text-align: left;
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: #f8f9fa; /* Alternate row background */
+}
+
+.table-hover tbody tr:hover {
+  background-color: #e9ecef; /* Hover background color */
+}
+
+
+/* Images Section */
+.images-section {
+  padding: 6rem 0; /* Increased padding */
+  background-color: #ffc107; /* Yellow background */
+}
+
+.images-section h2 {
+  text-align: center;
+  margin-bottom: 4rem; /* Increased margin */
+  color: #343a40; /* Dark text */
+}
+
+/* Image Cards Section */
+.image-cards-section {
+  padding: 6rem 0; /* Increased padding */
+  background-color: #f8f9fa; /* Light background */
+}
+
+.image-cards-section h2 {
+  text-align: center;
+  margin-bottom: 4rem; /* Increased margin */
+  color: #343a40; /* Dark text */
+}
+
+/* Footer Section */
+.footer-section {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 0; /* Increased padding */
+}
